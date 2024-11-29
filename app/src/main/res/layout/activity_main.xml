@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/base_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/result_decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decimal: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/result_binary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binary: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/result_octal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Octal: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/result_hex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hexadecimal: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

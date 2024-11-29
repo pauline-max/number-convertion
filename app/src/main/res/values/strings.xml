@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Number Converter</string>
+    <string-array name="base_options">
+        <item>Decimal</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+</resources>
